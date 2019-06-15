@@ -1,0 +1,37 @@
+.form-create{
+	margin-left: 50px;
+	width: 700px;
+}
+#txtarea{
+	height: 300px;
+}
+.timestamps{
+	width: 200px;
+}
+.tags{
+	width: 150px;
+}
+.cnter{
+	width: 1200px;
+}
+a.link{
+	color: black;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+div.btnCreate{
+	margin-bottom: 40px;
+}
+
+#tags-list a:not(:last-child):after{
+	color: black;
+  content: ', ';
+  margin-right: 5px;
+}
+#tags-list a{
+	font-size: 30px;
+}
+#this-tags small:not(:last-child):after{
+	color: black;
+	content: ', ';
+}
